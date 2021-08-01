@@ -1,11 +1,16 @@
-var num1 = 877;
-console.log(typeof(num1));
+ var num1 = 877;
+ console.log(typeof(num1));
 
 var name = "farhad"
- sum = num1 + name;
+ var num = num1 + name;
+ 
+console.log(typeof(num));
 
-console.log(typeof(sum));
+
+console.log(typeof(result));
+console.log(typeof(num));
 
 
  var valu = true;
-console.log(typeof(valu));
+ console.log(typeof(valu));
+
