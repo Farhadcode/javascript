@@ -1,5 +1,5 @@
 var sum = function(num1,num2){
     return num1+ num2;
 };
-console.log(sum(8,3));
+console.log(sum(92,3));
 
