@@ -52,3 +52,6 @@ console.log(typeof(res));
 var number1 = 233.66
 var int = parseInt(number1);
 console.log(int);
+var number3 = 2455.667;
+ var newSum = number3 + number1 ;
+ console.log(newSum.toFixed(2));
