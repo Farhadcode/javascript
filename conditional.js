@@ -19,4 +19,28 @@ else if(laptopPrice > myAmount){
 }
 else{
     console.log("sorry amount not enough");
+
 }
+
+// multiple conditions
+
+var gotJob  = false;
+var yourSavingMoney = 200000;
+var house =true;
+if((gotJob == true  && yourSavingMoney> 250000) || house == true){
+  console.log("get marid");
+}else{
+    console.log("impossble !you not prefact for mary");
+}
+
+
+var youJob  = true;
+
+var yourMoney = 200000;
+if(youJob == true || yourMoney> 150000){
+  console.log("get marid");
+}else{
+    console.log("No impossble.you not prefact for mary");
+}
+
+
