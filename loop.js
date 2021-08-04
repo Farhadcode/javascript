@@ -68,6 +68,7 @@ for (let index = 0; index < array.length; index++) {
     console.log(element);
 }
 
+
 const nameArray = ['farhad', 'jamal','kamal','damal','shamal'];
 
 for (let index = 0; index < nameArray.length; index++) {
