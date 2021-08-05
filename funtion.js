@@ -2,21 +2,47 @@
     var addad = num1 + num2;
     return addad;
 };
-console.log(sum(90,80));
+var addResult = sum(5,6)
+console.log(addResult);
 
 
 
-function myGf(x, y) {
-    return x+" "+y;
+
+// function myGf(x, y) {
+//     return x+" "+y;
+    
+// }
+// console.log(myGf("hot " ,"sweet"));
+
+// function calculation(x , y ,z) {
+
+//     const addad = x + y + z;
+//     console.log(addad);
+//     const mul = x*y*z;
+//     console.log(mul);
+// }
+// calculation(4,5,6);
+
+function laptop(price) {
+   var singleLaptopPrice = 100000;
+   var totalLaptop = price / singleLaptopPrice;
+   return parseInt(totalLaptop);
     
 }
-console.log(myGf("hot " ,"sweet"));
+var totalAmount = 699999;
+console.log(laptop(totalAmount));
 
-function calculation(x , y ,z) {
 
-    const addad = x + y + z;
-    console.log(addad);
-    const mul = x*y*z;
-    console.log(mul);
+function multiplication(a ,b) {
+    var mul = a*b;
+    return mul ;
+    
 }
-calculation(4,5,6);
+var multyResult = multiplication(10,11);
+console.log(multyResult);
+
+function complex(f , m) {
+     multiplication() 
+    return newResult;
+}
+console.log(complex(7 ,8));
