@@ -1,6 +1,6 @@
 
 function evenoOrOdd(number){
-    let remainder = number % 2;
+     let remainder = number % 2;
     if (remainder == 0) {
         console.log('this is even number',number);
     }
